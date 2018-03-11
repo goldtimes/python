@@ -1,0 +1,10 @@
+# 这个程序会和我打招呼，并询问我的名字
+print('hello')
+print('what \'s you name ?')
+myName = input()
+print('it \'s good to meet you, ' + myName)
+print('the length of you name is: ')
+print(len(myName))
+print('what\'s you age?')
+myAge = input()
+print('you will be ' + str(int(myAge) + 1) + ' in a year.')
