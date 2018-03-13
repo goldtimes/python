@@ -34,5 +34,4 @@ list2 = ['a','b','c']
 print(list1 + list2)
 print(list1 * 2)
 #del 列表表项
-del list1[2]
 print(list1)
