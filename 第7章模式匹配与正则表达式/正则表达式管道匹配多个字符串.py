@@ -1,0 +1,10 @@
+import re
+heroRegex = re.compile(r'Batman|Tina Fey')
+match = heroRegex.search('Batman and Tina Fey')
+print(match.group())
+match1 = heroRegex.search('Tina Fey and Batman')
+print(match1.group())
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+match2 = batRegex.search('Batmobile lost a wheel')
+print(match2.group())
+print(match2.group(1))
